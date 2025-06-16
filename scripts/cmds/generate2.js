@@ -23,7 +23,7 @@ aliases: ['genv2'],
     const text = args.join(' ');
 
     if (!text) {
-      return message.reply("𝙋𝙡𝙚𝙖𝙨𝙚 𝙥𝙧𝙤𝙫𝙞𝙙𝙚 𝙖 𝙥𝙧𝙤𝙢𝙥𝙩");
+      return message.reply("🍀🩸 𝙋𝙡𝙚𝙖𝙨𝙚 𝙥𝙧𝙤𝙫𝙞𝙙𝙚 𝙖 𝙥𝙧𝙤𝙢𝙥𝙩 🩸🍀");
     }
 
     const [prompt, model] = text.split('|').map((text) => text.trim());

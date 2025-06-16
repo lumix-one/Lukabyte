@@ -2,10 +2,10 @@ const axios = require('axios');
 
 const Prefixes = [
   '/ai',
-  'gear',
-  'préscilia ',
-  '+ai',
-  'shinmon',
+  'Ai',
+  'LUCIFER ',
+  'Lucifer',
+  'bot',
   'ai',
   'ask',
 ];
@@ -31,7 +31,7 @@ module.exports = {
       }
       const prompt = event.body.substring(prefix.length).trim();
    if (!prompt) {
-        await message.reply("🧛𝘿𝙍𝘼𝘾𝙐𝙇𝘼🧛\n\n あなたの質問 .....?  ");
+        await message.reply("🍀🩸 𝑀𝑂𝑅𝑁𝐼𝑁𝐺 𝑆𝑇𝐴𝑅 🩸🍀\n\n 𝑬𝒏 𝒒𝒖𝒐𝒊 𝒑𝒖𝒊𝒔 𝒋𝒆 𝒗𝒐𝒖𝒔 𝒆𝒕𝒓𝒆 𝒖𝒕𝒊𝒍𝒆 𝑴𝒓 .....?🤠🤠  ");
         return;
       }
 
@@ -40,10 +40,10 @@ module.exports = {
       const answer = response.data.answer;
 
  
-    await message.reply({ body: `🧛𝘿𝙍𝘼𝘾𝙐𝙇𝘼🧛
+    await message.reply({ body: `🍀🩸 𝑀𝑂𝑅𝑁𝐼𝑁𝐺 𝑆𝑇𝐴𝑅 🩸🍀
 _______________________
 ${answer}
-ドラキュラ 💢`,
+ꃳꁝꁝꁝꃳꃳꂵꂵꂵꍌ🤠`,
 });
 
    } catch (error) {

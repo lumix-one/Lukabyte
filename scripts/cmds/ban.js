@@ -86,13 +86,13 @@ module.exports = {
 
 			const index = dataBanned.findIndex(item => item.id == target);
 			if (index == -1)
-				return api.sendMessage(getLang('userNotBanned', target), event.threadID, event.messageID);
+				return api.sendMessage(getLang('𝑫𝒆𝒔𝒐𝒍𝒆 𝒎𝒂𝒊𝒔 𝒄𝒆 𝑴𝒓 𝒏𝒆 𝒑𝒆𝒖𝒕 𝒆𝒕𝒓𝒆 𝒃𝒂𝒏𝒊𝒓 😔🤧 ', target), event.threadID, event.messageID);
 
 			dataBanned.splice(index, 1);
 			await threadsData.set(event.threadID, dataBanned, 'data.banned_ban');
 			const userName = members[target]?.name || await usersData.getName(target) || getLang('noName');
 
-			return api.sendMessage(getLang('unbannedSuccess', userName), event.threadID, event.messageID);
+			return api.sendMessage(getLang('𝑼𝒕𝒊𝒍𝒊𝒔𝒂𝒕𝒆𝒖𝒓 𝒃𝒂𝒏𝒏𝒊𝒕 𝒂𝒗𝒆𝒄 𝒔𝒖𝒄𝒄𝒆𝒔 ✅😇', userName), event.threadID, event.messageID);
 		}
 		else if (args[0] == "check") {
 			if (!dataBanned.length)

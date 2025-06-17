@@ -5,8 +5,8 @@
 <h1 align="center"><img               src="" width="22px">
 
 # 𝙁𝘼𝘾𝘽𝙊𝙊𝙆 🎖PROFILE PHOTO</h1>
-<img                                  src="https://i.ibb.co/VSnJfWr/image.jpg">
-<h1 align="center"><img               src="https://i.ibb.co/q1vtz6Q/image.jpg" width="22px">
+<img                                  src="https://ibb.co/SXP2fNnk">
+<h1 align="center"><img               src="https://ibb.co/SXP2fNnk" width="22px">
 
 # 𝙋𝙃𝘼𝙍𝙊𝙐𝙆 {lycée moderne2 de soubré} 𝙈𝙔 𝙎𝘾𝙃𝙊𝙊𝙇                  𝙄𝙉𝙁𝙊𝙍𝙈𝘼𝙏𝙄𝙊𝙉:</h1>
 # 𝐂𝐇𝐀𝐓 𝐁𝐎𝐓 𝐌𝐄𝐒𝐒𝐄𝐍𝐆𝐄𝐑 
